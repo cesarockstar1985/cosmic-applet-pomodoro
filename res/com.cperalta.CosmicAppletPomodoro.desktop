@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Pomodoro
+Comment=Temporizador Pomodoro en el panel
+Type=Application
+Exec=cosmic-applet-pomodoro
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Iced;pomodoro;timer;
+Icon=alarm-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
+X-OverflowPriority=10

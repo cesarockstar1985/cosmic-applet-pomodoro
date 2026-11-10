@@ -1,0 +1,16 @@
+[package]
+name = "cosmic-applet-pomodoro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["process", "time"] }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic.git"
+default-features = false
+features = ["applet", "tokio", "wayland"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
